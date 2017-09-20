@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	
-	<title>AxilBoard Bootstrap 4 Admin Template</title>
+	<title>Organization</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="AxilBoard Bootstrap 4 Admin Template">
@@ -69,7 +69,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<div class="panel-title">
-										<h4>Add Staff</h4>
+										<h4>Organization Registration</h4>
 									</div>
 								</div>
 								<div class="panel-body">
@@ -84,53 +84,39 @@
 												<section>
 													<h3 class="display-off">one</h3>
 													
+													<hr>
+													<br>
+												
+												<div class="form-group row">
+													<div class="col-lg-2"></div>
+												
+													<label for="edName" class="col-lg-2 col-form-label">Education Society Name</label>
 													
-													<div class="row lab">
-														<div class="form-group mrg-b-0 col-lg-12 ">
-															<label for="userName">Your Name</label>
-														</div>
-														<div class="col-lg-2"></div>
-														<div class="form-group col-lg-4">
-															<input id="userName" type="text" class="form-control extra-small required" placeholder="First Name">
-														</div>
-														<div class="form-group col-lg-4">
-															<input  type="text" class="form-control extra-small required" placeholder="Last Name">
-														</div>
+													<div class="col-lg-4">
+														<input type="text" class="form-control extra-small required" id="edName" placeholder="Education Society Name">
 													</div>
+												</div>
+												
+												<div class="form-group row">
+													<div class="col-lg-2"></div>
+												
+													<label for="nSchool" class="col-lg-2 col-form-label">No. of Schools</label>
 													
-													<div class="row lab">
-														 <div class="form-group mrg-b-0 col-12 lab">
-															<label for="username">User Name</label>
-														</div>
-														<div class="col-lg-2"></div>
-														<div class="form-group col-lg-4">
-															<input  type="text" id="username" class="form-control extra-small required" placeholder="User Name">
-														</div>
-													</div>	
+													<div class="col-lg-4">
+														<input type="text" class="form-control extra-small required" id="nSchool" onblur="addFields()" placeholder="No. of Schools">
+													</div>
+												</div>
+												
+												<div class="form-group row">
+													<div class="col-lg-2"></div>
+												
+													<label for="nSchool" class="col-lg-2 col-form-label">School Name</label>
 													
-													
-													<div class="row">
-														<div class="form-group mrg-b-0 col-12">
-															<label for="email">Email</label>
-														</div>
-														
-														<div class="form-group col-lg-6">
-															<input id="email"  type="email" class="form-control extra-small required email" placeholder="Enter Email">
-														</div>
+													<div class="col-lg-4" id="container">
 														
 													</div>
+												</div>	
 													
-													<div class="row">
-														<div class="form-group mrg-b-0 col-12">
-															<label for="password">Password</label>
-														</div>
-														<div class="form-group col-lg-6">
-															<input id="password" type="password" class="form-control extra-small required" placeholder="Passwoed">
-														</div>
-														<div class="form-group col-lg-6">
-															<input id="confirm" type="password" class="form-control renter-block extra-small required" placeholder="Re type password">
-														</div>
-													</div>
 												</section>
 												<div class="form-wizard-circle">
 													<span class="wizard-circle">02</span>
@@ -246,5 +232,7 @@
 	<script src="/SMGMT/Config/assets/js/emoji/emoji-picker.js"></script>
 
     <script src="/SMGMT/Config/js/custom.js"></script>
+    <script src="/SMGMT/View/Organization/config/custom.js"></script>
+    
 </body>
 </html>
